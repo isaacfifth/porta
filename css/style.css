@@ -5,19 +5,34 @@
  
  h4 {
    font-family: Avenir-Black;
-   font-size: 57px;
+   font-size: 40px;
    color: #0B5868;
    letter-spacing: 17.84px;
-   line-height: 94px;
+   line-height: 70px;
  }
+
+@media (min-width: 550px) {h4 {font-size: 31px;line-height: 64px;letter-spacing: 10px;line-height: 94px;}}
+@media (min-width: 750px) {h4 {font-size: 45px;letter-spacing: 15px;}}
+@media (min-width: 1000px) {h4 {font-size: 55px;letter-spacing: 18px;}}
  
- h2 {
+ 
+h3 {
+  font-family: Avenir-Medium;
+   font-size: 25px;
+   color: #fff;
+   letter-spacing: 1.44px;
+   line-height: 50px;
+   text-align: justify;
+}
+
+h2 {
    font-family: Avenir-Black;
    font-size: 33px;
    color: #0B5868;
-   letter-spacing: 9.56px;
-   line-height: ;
+   letter-spacing: 8px;
+   line-height: 50px;
    text-transform: uppercase;
+   
  }
  
  h1 {
@@ -27,6 +42,14 @@
    letter-spacing: 1.15px;
    line-height: 30px;
  }
+
+p {
+  font-family: Avenir-Book;
+  font size: 11px;
+  text-align: center;
+  color: #C2C2C2;
+  line-height: 1px;
+}
  
  .hero {
    padding-top: 100px;
@@ -54,17 +77,9 @@
    transition: .5s;
  }
  
- .hero p {
-   font-family: Avenir-Medium;
-   font-size: 25px;
-   color: #fff;
-   letter-spacing: 1.44px;
-   line-height: 50px;
-   text-align: justify;
- }
- 
  .insta {
    padding-top: 100px;
+   padding-bottom: 70px;
    background-color: #fff;
    text-align: center;
  }
@@ -186,3 +201,7 @@
    -webkit-animation: ani-mouse 2.5s linear infinite;
    -moz-animation: ani-mouse 2.5s linear infinite;
    animation: ani-mouse 2.5s linear infinite;
+   
+
+
+
