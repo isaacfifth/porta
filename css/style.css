@@ -1,0 +1,188 @@
+   html {
+   background-color: #fff;
+   -webkit-font-smoothing: antialiased;
+ }
+ 
+ h4 {
+   font-family: Avenir-Black;
+   font-size: 57px;
+   color: #0B5868;
+   letter-spacing: 17.84px;
+   line-height: 94px;
+ }
+ 
+ h2 {
+   font-family: Avenir-Black;
+   font-size: 33px;
+   color: #0B5868;
+   letter-spacing: 9.56px;
+   line-height: ;
+   text-transform: uppercase;
+ }
+ 
+ h1 {
+   font-family: Avenir-Book;
+   font-size: 20px;
+   color: #4A4A4A;
+   letter-spacing: 1.15px;
+   line-height: 30px;
+ }
+ 
+ .hero {
+   padding-top: 100px;
+   padding-bottom: 100px;
+   background-image: url("../images/hero-bg.jpg");
+   background-size: cover;
+   background-position: center;
+   align-items: center;
+   text-align: center;
+ }
+ 
+ .hero a {
+   color: #fff;
+   font-family: Avenir-Black;
+   text-decoration: underline;
+ }
+ 
+ .hero a:hover {
+   color: #00E1C2;
+   -o-transition: .5s;
+   -ms-transition: .5s;
+   -moz-transition: .5s;
+   -webkit-transition: .5s;
+   /* ...and now for the proper property */
+   transition: .5s;
+ }
+ 
+ .hero p {
+   font-family: Avenir-Medium;
+   font-size: 25px;
+   color: #fff;
+   letter-spacing: 1.44px;
+   line-height: 50px;
+   text-align: justify;
+ }
+ 
+ .insta {
+   padding-top: 100px;
+   background-color: #fff;
+   text-align: center;
+ }
+ 
+ @-webkit-keyframes ani-mouse {
+   0% {
+     opacity: 1;
+     top: 29%;
+   }
+   15% {
+     opacity: 1;
+     top: 50%;
+   }
+   50% {
+     opacity: 0;
+     top: 50%;
+   }
+   100% {
+     opacity: 0;
+     top: 29%;
+   }
+ }
+ 
+ @-moz-keyframes ani-mouse {
+   0% {
+     opacity: 1;
+     top: 29%;
+   }
+   15% {
+     opacity: 1;
+     top: 50%;
+   }
+   50% {
+     opacity: 0;
+     top: 50%;
+   }
+   100% {
+     opacity: 0;
+     top: 29%;
+   }
+ }
+ 
+ @keyframes ani-mouse {
+   0% {
+     opacity: 1;
+     top: 29%;
+   }
+   15% {
+     opacity: 1;
+     top: 50%;
+   }
+   50% {
+     opacity: 0;
+     top: 50%;
+   }
+   100% {
+     opacity: 0;
+     top: 29%;
+   }
+ }
+ 
+ .scroll-btn {
+   display: block;
+   position: absolute;
+   left: 0;
+   right: 0;
+   text-align: center;
+ }
+ 
+ .scroll-btn > * {
+   display: inline-block;
+   line-height: 18px;
+   font-size: 13px;
+   font-weight: normal;
+   color: #7f8c8d;
+   color: #ffffff;
+   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   letter-spacing: 2px;
+ }
+ 
+ .scroll-btn > *:hover,
+ .scroll-btn > *:focus,
+ .scroll-btn > *.active {
+   color: #ffffff;
+ }
+ 
+ .scroll-btn > *:hover,
+ .scroll-btn > *:focus,
+ .scroll-btn > *:active,
+ .scroll-btn > *.active {
+   opacity: 0.8;
+   filter: alpha(opacity=80);
+ }
+ 
+ .scroll-btn .mouse {
+   position: relative;
+   display: block;
+   width: 35px;
+   height: 55px;
+   margin: 0 auto 20px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   border: 2px solid white;
+   border-radius: 23px;
+   background: rgba(255, 255, 255, 0.27);
+ }
+ 
+ .scroll-btn .mouse > * {
+   position: absolute;
+   display: block;
+   top: 29%;
+   left: 50%;
+   width: 8px;
+   height: 8px;
+   margin: -4px 0 0 -4px;
+   background: white;
+   border-radius: 50%;
+   -webkit-animation: ani-mouse 2.5s linear infinite;
+   -moz-animation: ani-mouse 2.5s linear infinite;
+   animation: ani-mouse 2.5s linear infinite;
