@@ -3,6 +3,10 @@
    -webkit-font-smoothing: antialiased;
  }
  
+a {
+  font-family: Avenir-Book;
+}
+
  h4 {
    font-family: Avenir-Black;
    font-size: 40px;
@@ -87,6 +91,16 @@ p {
    text-align: center;
  }
  
+ .view-more {
+   color: #bdbdbd;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 12px;
+   letter-spacing: 2px;
+   font-family: Avenir-Black;
+   }
+
+
  @-webkit-keyframes ani-mouse {
    0% {
      opacity: 1;
@@ -205,6 +219,6 @@ p {
    -moz-animation: ani-mouse 2.5s linear infinite;
    animation: ani-mouse 2.5s linear infinite;
    
-
+  
 
 
