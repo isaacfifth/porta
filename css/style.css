@@ -1,4 +1,4 @@
-           html {
+         html {
              background-color: #fff;
              -webkit-font-smoothing: antialiased;
            }
@@ -56,6 +56,7 @@
              letter-spacing: 8px;
              line-height: 50px;
              text-transform: uppercase;
+             margin-bottom: 13px;
            }
            
            h1 {
@@ -74,6 +75,9 @@
              color: #C2C2C2;
              line-height: 16px;
            }
+
+  
+           
            
            .cta {
              font-family: Avenir-Black;
@@ -106,7 +110,6 @@
            .hero {
              padding-top: 100px;
              padding-bottom: 100px;
-             background-color:#B8B0BD;
              background-image: url("../images/hero-bg.jpg");
              background-size: cover;
              background-position: center;
@@ -316,6 +319,7 @@
              padding-bottom: 0px;
              text-align: center;
            }
+        
            
            footer h3 {
              text-align: center;
