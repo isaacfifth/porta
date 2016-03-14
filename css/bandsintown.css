@@ -11,11 +11,20 @@
            }
            
            h4 {
-             font-family: Avenir-Black;
-             font-size: 31px;
+             font-family: Avenir-Black, Raleway;
+             font-weight: 800;
+             font-size: 22px;
              color: #0B5868;
-             letter-spacing: 5px;
-             line-height: 45px;
+             letter-spacing: 10px;
+             line-height: 36px;
+           }
+           
+           @media (min-width: 550px) {
+             h4 {
+               font-size: 40px;
+               letter-spacing: 17px;
+               line-height: 70px;
+             }
            }
            
            h3 {
@@ -52,8 +61,8 @@
            }
            
            h1 {
-             font-family: Avenir-Book;
-             font-size: 20px;
+             font-family: Avenir-Book, Raleway;
+             font-size: 17px;
              color: #4A4A4A;
              letter-spacing: 1.15px;
              line-height: 30px;
@@ -61,12 +70,26 @@
              text-align: justify;
            }
            
+           @media (min-width: 550px) {
+             h1 {
+               font-size: 20px;
+               line-height: 30px;
+             }
+           }
+           
            p {
              text-align: center;
-             font-family: Avenir-Medium;
-             font-size: 20px;
+             font-family: Avenir-Medium, Raleway;
+             font-size: 17px;
              color: #4A4A4A;
-             line-height: 35px;
+             line-height: 29px;
+           }
+           
+           @media (min-width: 550px) {
+             p {
+               font-size: 20px;
+               line-height: 35px;
+             }
            }
            
            .nav-bar {
@@ -76,7 +99,8 @@
              background: rgba(0, 0, 0, 0.60);
              position: fixed;
              top: 0px;
-             font-family: Avenir-Black;
+             font-family: Avenir-Black, Raleway;
+             font-weight: 800;
              font-size: 16px;
              color: #fff;
              letter-spacing: 3.32px;
@@ -92,7 +116,8 @@
            }
            
            .cta {
-             font-family: Avenir-Black;
+             font-family: Avenir-Black, Raleway;
+             font-weight: 800;
              font-size: 16px;
              color: #FFFFFF;
              letter-spacing: 3.32px;
@@ -296,7 +321,7 @@
            
            .bit h1 {
              color: #fff;
-             font-family: Avenir-Medium;
+             font-family: Avenir-Medium, Raleway;
              line-height: 40px;
            }
            
