@@ -71,7 +71,8 @@
            
            .nav-bar {
              width: 100%;
-             padding: 17px;
+             padding-top: 17px;
+             padding-bottom: 17px;
              background: rgba(0, 0, 0, 0.60);
              position: fixed;
              top: 0px;
@@ -128,10 +129,10 @@
              align-items: center;
              text-align: center;
            }
-
-.bit h4 {
-  color: #fff;
-}
+           
+           .bit h4 {
+             color: #fff;
+           }
            
            .hero a {
              color: #fff;
@@ -177,7 +178,7 @@
            }
            
            .bit-layer {
-/*             background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.00) 80%, #FFFFFF 100%);*/
+             /*             background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.00) 80%, #FFFFFF 100%);*/
              background-size: cover;
              background-position: bottom;
              width: 100%;
@@ -385,4 +386,3 @@
            .social-media a:hover {
              color: #00E1C2;
            }
-          
