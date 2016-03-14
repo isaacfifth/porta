@@ -75,6 +75,9 @@
              color: #C2C2C2;
              line-height: 16px;
            }
+
+  
+           
            
            .cta {
              font-family: Avenir-Black;
@@ -316,6 +319,7 @@
              padding-bottom: 0px;
              text-align: center;
            }
+        
            
            footer h3 {
              text-align: center;
